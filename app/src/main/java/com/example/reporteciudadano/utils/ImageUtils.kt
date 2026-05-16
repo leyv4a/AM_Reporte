@@ -9,16 +9,11 @@ import android.util.Base64
 import java.io.ByteArrayOutputStream
 import java.io.InputStream
 
-/**
- * ImageUtils - Utilidades para manejar imágenes
- * Contiene funciones para convertir imagen a Base64 y obtener el nombre del archivo
- */
+
 object ImageUtils {
 
     /**
-     * Convierte una imagen (URI) a cadena Base64
-     * La API requiere la imagen en formato Base64
-     *
+
      * @param context Contexto de la Activity
      * @param uri URI de la imagen seleccionada en la galería
      * @return String en Base64 o null si ocurrió un error

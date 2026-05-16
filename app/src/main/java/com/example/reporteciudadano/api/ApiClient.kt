@@ -7,8 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 /**
- * ApiClient - Configuración de Retrofit
- * Aquí definimos la URL base y los ajustes de la conexión HTTP
+ *  Configuración de Retrofit
  */
 object ApiClient {
 

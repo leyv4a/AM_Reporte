@@ -20,10 +20,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-/**
- * ReporteActivity - Pantalla con el formulario para crear un reporte
- * El usuario llena sus datos, selecciona imagen y envía a la API
- */
+
 class ReporteActivity : AppCompatActivity() {
 
     // Código para identificar el resultado de seleccionar imagen

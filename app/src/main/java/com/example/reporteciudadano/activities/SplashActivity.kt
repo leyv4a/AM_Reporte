@@ -7,10 +7,6 @@ import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.example.reporteciudadano.R
 
-/**
- * SplashActivity - Pantalla de bienvenida
- * Se muestra durante 2 segundos y luego abre MainActivity
- */
 class SplashActivity : AppCompatActivity() {
 
     // Tiempo de duración del splash en milisegundos

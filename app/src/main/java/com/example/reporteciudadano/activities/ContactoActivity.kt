@@ -8,10 +8,6 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.reporteciudadano.R
 
-/**
- * ContactoActivity - Pantalla con información de contacto
- * Permite abrir Maps, correo y teléfono con un toque
- */
 class ContactoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

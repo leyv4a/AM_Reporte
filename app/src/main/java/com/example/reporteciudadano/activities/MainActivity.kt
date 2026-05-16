@@ -6,10 +6,6 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.reporteciudadano.R
 
-/**
- * MainActivity - Pantalla principal de la aplicación
- * Muestra dos botones: Crear Reporte y Contacto
- */
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
