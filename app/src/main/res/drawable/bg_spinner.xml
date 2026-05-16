@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fondo para los Spinners -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Fondo blanco -->
+    <solid android:color="#FFFFFF"/>
+
+    <!-- Borde gris suave -->
+    <stroke
+        android:width="1dp"
+        android:color="#BDBDBD"/>
+
+    <!-- Esquinas ligeramente redondeadas -->
+    <corners android:radius="6dp"/>
+
+</shape>

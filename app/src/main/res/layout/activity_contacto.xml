@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout de la pantalla de contacto -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título de la sección -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Información de Contacto"
+        android:textColor="#1565C0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- ===== CARD: DIRECCIÓN ===== -->
+    <!-- LinearLayout que al tocarlo abre Google Maps -->
+    <LinearLayout
+        android:id="@+id/layoutDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- Ícono de ubicación -->
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="📍"
+            android:textSize="28sp"
+            android:gravity="center"/>
+
+        <!-- Información de la dirección -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirección"
+                android:textColor="#1565C0"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Palacio Municipal, Centro"
+                android:textColor="#424242"
+                android:textSize="15sp"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guaymas, Sonora, México"
+                android:textColor="#757575"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+        <!-- Flecha de acción -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="#1565C0"
+            android:textSize="24sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- ===== CARD: CORREO ===== -->
+    <!-- LinearLayout que al tocarlo abre el correo -->
+    <LinearLayout
+        android:id="@+id/layoutCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- Ícono de correo -->
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="✉️"
+            android:textSize="28sp"
+            android:gravity="center"/>
+
+        <!-- Información del correo -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo electrónico"
+                android:textColor="#1565C0"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reportes@municipio.gob.mx"
+                android:textColor="#424242"
+                android:textSize="15sp"
+                android:layout_marginTop="2dp"/>
+
+        </LinearLayout>
+
+        <!-- Flecha de acción -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="#1565C0"
+            android:textSize="24sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- ===== CARD: TELÉFONO ===== -->
+    <!-- LinearLayout que al tocarlo abre el marcador -->
+    <LinearLayout
+        android:id="@+id/layoutTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- Ícono de teléfono -->
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="📞"
+            android:textSize="28sp"
+            android:gravity="center"/>
+
+        <!-- Información del teléfono -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teléfono"
+                android:textColor="#1565C0"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="622 221-3000"
+                android:textColor="#424242"
+                android:textSize="15sp"
+                android:layout_marginTop="2dp"/>
+
+        </LinearLayout>
+
+        <!-- Flecha de acción -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="#1565C0"
+            android:textSize="24sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

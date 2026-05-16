@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue_200
+color blue_700
+color blue_900
+color gray_light
+color gray_medium
+color white
+drawable bg_card
+drawable bg_edittext
+drawable bg_spinner
+drawable ic_launcher_foreground
+id btnContacto
+id btnCrearReporte
+id btnEnviarReporte
+id btnSeleccionarImagen
+id etCelular
+id etCorreo
+id etDescripcion
+id etDireccion
+id etNombre
+id layoutCorreo
+id layoutDireccion
+id layoutTelefono
+id spinnerColonia
+id spinnerTipo
+id tvNombreImagen
+layout activity_contacto
+layout activity_main
+layout activity_reporte
+layout activity_splash
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.ReporteCiudadano
+style Theme.ReporteCiudadano.NoActionBar

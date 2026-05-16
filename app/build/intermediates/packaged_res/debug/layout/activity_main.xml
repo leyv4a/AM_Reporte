@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout de la pantalla principal con los dos botones -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- Título principal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reporte Ciudadano"
+        android:textColor="#1565C0"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Descripción corta -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué deseas hacer?"
+        android:textColor="#757575"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="48dp"/>
+
+    <!-- Botón para ir a crear un reporte -->
+    <Button
+        android:id="@+id/btnCrearReporte"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📋  Crear Reporte"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#1565C0"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para ir a la pantalla de contacto -->
+    <Button
+        android:id="@+id/btnContacto"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📞  Contacto"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#37474F"/>
+
+</LinearLayout>
